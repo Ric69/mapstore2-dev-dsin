@@ -1,0 +1,40 @@
+{
+  "layers": {
+    "Mosaique:IGN_SCAN25": {
+      "lidar": "IGN_SCAN25"
+    },
+    "Mosaique_IGN_SCAN25": {
+      "lidar": "IGN_SCAN25"
+    },
+    "Emprise_IGN_SCAN25": {
+      "lidar": "IGN_SCAN25"
+    },
+    "Mosaique:IGN_ORTHO2": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Mosaique_IGN_ORTHO2": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Emprise_IGN_ORTHO2": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Mosaique:IGN_ORTHO": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Mosaique_IGN_ORTHO": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Emprise_IGN_ORTHO": {
+      "lidar": "IGN_ORTHO"
+    },
+    "Mosaique:CNR_LIDAR": {
+      "lidar": "CNR_LIDAR"
+    },
+    "Mosaique_CNR_LIDAR": {
+      "lidar": "CNR_LIDAR"
+    },
+    "Emprise_CNR_LIDAR": {
+      "lidar": "CNR_LIDAR"
+    }
+  }
+}

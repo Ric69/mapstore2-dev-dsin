@@ -1,0 +1,79 @@
+/**
+ * Measure plugin
+ */
+#mapstore-measure-panel.modal-dialog {
+    position: absolute;
+    left: 30%;
+}
+
+#mapstore-measure-panel .btn-delete-geometries:hover {
+    color: #ffffff !important;
+}
+
+#measure-form .measure-buttons .btn {
+    padding: 6px 4px;
+}
+
+#mapstore-measure-panel .measure-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mapstore-measure-panel .measure-list button {
+    margin: 15px;
+    width: 150px;
+}
+
+#measure-form .measure-buttons .btn .glyphicon {
+    margin-right: 3px;
+}
+
+#measure-form .measure-buttons .btn .option-text {
+    font-size: 13px;
+}
+
+#measurements .rw-widget {
+    color: #c8102e !important;
+}
+
+#measurements .rw-widget.rw-state-focus,
+#measurements .rw-widget.rw-state-focus:hover {
+    box-shadow: none;
+    border-color: #c8102e !important;
+}
+
+#measurements .rw-widget .rw-list-option:hover {
+    background-color: #c8102e !important;
+}
+
+#measurements .rw-widget .rw-list-option.rw-state-focus {
+    color: #c8102e !important;
+    border-color: #c8102e !important;
+}
+
+#measurements .rw-widget .rw-list-option.rw-state-focus:hover {
+    color: #ffffff !important;
+}
+
+.btn-export {
+    display: inline-block;
+}
+
+.btn-geometry {
+    width: 178px;
+}
+
+.btn-geometry.active {
+    color: #ffffff !important;
+    background-color: #c8102e !important;
+    border-color: #c8102e !important;
+}
+
+.measure-shape-buttons {
+    margin-top: 5px;
+}
+
+.measure-shape-buttons .glyphicon {
+    margin-right: 5px;
+}

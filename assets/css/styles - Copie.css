@@ -1,0 +1,987 @@
+/**
+ * Couleur principale : #C8102E (rgba(200, 16, 46))
+ * @author Capgemini
+*/
+#topbar {
+    display: block !important;
+}
+
+#topbar #logo {
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+#topbar .btn-toolbar {
+    display: inline-block;
+}
+
+#topbar-right {
+    text-align: right;
+}
+
+#topbar-right #home-button {
+    float: none !important;
+}
+
+#topbar-right #mapstore-login-menu {
+    display: inline-block;
+}
+
+#topbar-right #mapstore-login-menu #loginButton {
+    height: 42px;
+    font-size: 25px;
+    padding: 4px 10px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.pr {
+    position: relative;
+}
+
+.cnr .btn:hover,
+.cnr .btn:focus,
+.cnr .btn.focus {
+    color: #c8102e;
+}
+
+.cnr .btn.btn-warning:focus,
+.cnr .btn.btn-warning:hover {
+    color: #ffffff;
+}
+
+.cnr .btn.btn-danger:focus,
+.cnr .btn.btn-danger:hover {
+    color: #ffffff;
+}
+
+.cnr .btn.btn-info:focus,
+.cnr .btn.btn-info:hover {
+    color: #ffffff;
+}
+
+/** Taille des boutons */
+.cnr div#mapstore-globalspinner {
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.cnr div#mapstore-globalspinner.ms2-loading .sk-circle-wrapper {
+    width: 25px;
+    height: 25px;
+}
+
+.cnr .btn-group-vertical > .square-button {
+    width: 42px;
+    height: 42px;
+    padding: 6px;
+}
+
+/** Taille des boutons en haut */
+.cnr #mapstore-navbar-container {
+    height: 42px;
+}
+
+.cnr .square-button {
+    height: 42px;
+    width: 42px;
+    padding: 6px;
+}
+
+/** Taille de la barre de recherchre */
+.cnr .MapSearchBar .input-group .searchInput {
+    height: 42px !important;
+}
+
+.cnr .MapSearchBar .input-group .search-toolbar-options .btn-group-menu-options {
+    top: 6px;
+}
+
+.coordinateLabel button {
+    margin-right: 6px;
+}
+
+.cnr .toc-default-group.selected .toc-default-group-head {
+    background-color: #c8102e;
+    color: #ffffff;
+}
+
+.cnr .toc-default-group .toc-default-group-head .toc-group-title:hover {
+    color: #c8102e;
+}
+
+.cnr .toc-default-group .toc-default-layer .toc-default-layer-head {
+    cursor: grab;
+}
+
+.cnr .ms2-loading {
+    background-color: #c8102e !important;
+    border-bottom: 2px solid #c8102e !important;
+}
+
+.cnr .btn-primary {
+    color: #ffffff;
+    background-color: #c8102e;
+    border-color: #c8102e;
+}
+
+.cnr .btn-primary:hover,
+.cnr .btn-primary:focus,
+.cnr .btn-primary.focus,
+.cnr .btn-primary:active,
+.cnr .btn-primary.active,
+.cnr .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #820d20 !important;
+    border-color: #820d20;
+}
+
+.cnr .square-button.disabled,
+.cnr .square-button-md.disabled,
+.cnr .square-button-sm.disabled,
+.cnr .square-button[disabled],
+.cnr .square-button-md[disabled],
+.cnr .square-button-sm[disabled],
+.cnr fieldset[disabled] .square-button,
+.cnr fieldset[disabled] .square-button-md,
+.cnr fieldset[disabled] .square-button-sm,
+.cnr .square-button.disabled.active,
+.cnr .square-button-md.disabled.active,
+.cnr .square-button-sm.disabled.active,
+.cnr .square-button[disabled].active,
+.cnr .square-button-md[disabled].active,
+.cnr .square-button-sm[disabled].active,
+.cnr fieldset[disabled] .square-button.active,
+.cnr fieldset[disabled] .square-button-md.active,
+.cnr fieldset[disabled] .square-button-sm.active,
+.cnr .square-button.disabled.focus,
+.cnr .square-button-md.disabled.focus,
+.cnr .square-button-sm.disabled.focus,
+.cnr .square-button[disabled].focus,
+.cnr .square-button-md[disabled].focus,
+.cnr .square-button-sm[disabled].focus,
+.cnr fieldset[disabled] .square-button.focus,
+.cnr fieldset[disabled] .square-button-md.focus,
+.cnr fieldset[disabled] .square-button-sm.focus,
+.cnr .square-button.disabled:active,
+.cnr .square-button-md.disabled:active,
+.cnr .square-button-sm.disabled:active,
+.cnr .square-button[disabled]:active,
+.cnr .square-button-md[disabled]:active,
+.cnr .square-button-sm[disabled]:active,
+.cnr fieldset[disabled] .square-button:active,
+.cnr fieldset[disabled] .square-button-md:active,
+.cnr fieldset[disabled] .square-button-sm:active,
+.cnr .square-button.disabled:focus,
+.cnr .square-button-md.disabled:focus,
+.cnr .square-button-sm.disabled:focus,
+.cnr .square-button[disabled]:focus,
+.cnr .square-button-md[disabled]:focus,
+.cnr .square-button-sm[disabled]:focus,
+.cnr fieldset[disabled] .square-button:focus,
+.cnr fieldset[disabled] .square-button-md:focus,
+.cnr fieldset[disabled] .square-button-sm:focus,
+.cnr .square-button.disabled:hover,
+.cnr .square-button-md.disabled:hover,
+.cnr .square-button-sm.disabled:hover,
+.cnr .square-button[disabled]:hover,
+.cnr .square-button-md[disabled]:hover,
+.cnr .square-button-sm[disabled]:hover,
+.cnr fieldset[disabled] .square-button:hover,
+.cnr fieldset[disabled] .square-button-md:hover,
+.cnr fieldset[disabled] .square-button-sm:hover {
+    color: #ffffff;
+    background-color: #f35c75;
+}
+
+.cnr .dropdown-menu .dropdown-header {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .dropdown-menu .glyphicon {
+    color: #c8102e;
+}
+
+.cnr .toc-default-group .glyphicon {
+    color: #c8102e;
+}
+
+.cnr .btn-default {
+    color: #c8102e;
+    border-color: #c8102e;
+}
+
+.cnr .btn-default.print-download,
+.cnr .btn-default.print-download:focus,
+.cnr .btn-default.print-download:hover {
+    color: #ffffff;
+}
+
+.cnr .catalog-panel .mapstore-switch-panel {
+    padding: 0;
+}
+
+.cnr .catalog-panel .panel-heading,
+.cnr .pictures-panel .panel-heading {
+    color: #ffffff;
+    background-color: #c8102e;
+    padding: 0 0 0 8px;
+}
+
+.cnr .pictures-panel .panel-heading {
+    padding: 10px 15px;
+}
+
+.cnr .pictures-panel .panel-body {
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#parent-mapstore-pictures-panel {
+    overflow: hidden !important;
+}
+
+.cnr .navbar-dx .dropdown-menu .dropdown-header,
+.cnr .navbar-home .dropdown-menu .dropdown-header {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .MapSearchBar .input-group .search-toolbar-options .dropdown-menu > .active > a,
+.cnr .MapSearchBar .input-group .search-toolbar-options .dropdown-menu > .active > a .glyphicon,
+.cnr .MapSearchBar .input-group .search-toolbar-options .dropdown-menu > .active > a:hover,
+.cnr
+    .MapSearchBar
+    .input-group
+    .search-toolbar-options
+    .dropdown-menu
+    > .active
+    > a
+    .glyphicon:hover,
+.cnr .MapSearchBar .input-group .search-toolbar-options .dropdown-menu > .active > a:focus,
+.cnr
+    .MapSearchBar
+    .input-group
+    .search-toolbar-options
+    .dropdown-menu
+    > .active
+    > a
+    .glyphicon:focus {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .mapstore-toc-head .mapstore-toc-head-title-container .mapstore-toc-head-title {
+    color: #c8102e;
+}
+
+.cnr .text-primary {
+    color: #c8102e;
+}
+
+.cnr .modal-header {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .ms-side-panel .ms-header.ms-primary .row:first-child {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .bg-primary {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .btn-primary:active:hover,
+.cnr .btn-primary.active:hover,
+.cnr .open > .dropdown-toggle.btn-primary:hover,
+.cnr .btn-primary:active:focus,
+.cnr .btn-primary.active:focus,
+.cnr .open > .dropdown-toggle.btn-primary:focus,
+.cnr .btn-primary:active.focus,
+.cnr .btn-primary.active.focus,
+.cnr .open > .dropdown-toggle.btn-primary.focus {
+    color: #ffffff;
+    background-color: #034450;
+    border-color: #010e10;
+}
+
+.cnr .btn-default:active:hover,
+.cnr .btn-default.active:hover,
+.cnr .open > .dropdown-toggle.btn-default:hover,
+.cnr .btn-default:active:focus,
+.cnr .btn-default.active:focus,
+.cnr .open > .dropdown-toggle.btn-default:focus,
+.cnr .btn-default:active.focus,
+.cnr .btn-default.active.focus,
+.cnr .open > .dropdown-toggle.btn-default.focus {
+    color: #c8102e;
+    background-color: #d4d4d4;
+    border-color: #820d20;
+}
+
+.cnr .pagination > .active > a,
+.cnr .pagination > .active > span,
+.cnr .pagination > .active > a:hover,
+.cnr .pagination > .active > span:hover,
+.cnr .pagination > .active > a:focus,
+.cnr .pagination > .active > span:focus {
+    color: #ffffff;
+    background-color: #c8102e;
+    border-color: #c8102e;
+}
+
+.cnr .toc-default-group .toc-default-layer.selected .toc-default-layer-head {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .toc-default-group .toc-default-layer .noUi-target,
+#background-switcher .noUi-target {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr
+    .mapstore-slider.with-tooltip
+    .noUi-target.noUi-horizontal
+    .noUi-base
+    .noUi-origin
+    .noUi-handle
+    .noUi-tooltip {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr div#sync-popover.popover h3 {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .mapstore-switch-btn input:checked + .m-slider {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .mapstore-switch-btn .m-slider {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.cnr .btn-default:hover {
+    color: #820d20;
+    border-color: #820d20;
+}
+
+.cnr .pagination > li > a,
+.cnr .pagination > li > span {
+    color: #c8102e;
+    border-color: #820d20;
+}
+
+.cnr .btn-success:active,
+.cnr .btn-success.active,
+.cnr .open > .dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #19fc19;
+    border-color: #058817;
+}
+
+.cnr #query-form-panel button:disabled {
+    color: #ffffff;
+    background-color: #19fc19 !important;
+    border-color: #058817 !important;
+}
+
+.cnr .btn-success:active:hover,
+.cnr .btn-success.active:hover,
+.cnr .open > .dropdown-toggle.btn-success:hover,
+.cnr .btn-success:active:focus,
+.cnr .btn-success.active:focus,
+.cnr .open > .dropdown-toggle.btn-success:focus,
+.cnr .btn-success:active.focus,
+.cnr .btn-success.active.focus,
+.cnr .open > .dropdown-toggle.btn-success.focus {
+    color: #ffffff;
+    background-color: #19fc19;
+    border-color: #058817;
+}
+
+.cnr .btn-primary.disabled,
+.cnr .btn-primary[disabled],
+.cnr fieldset[disabled] .btn-primary,
+.cnr .btn-primary.disabled:hover,
+.cnr .btn-primary[disabled]:hover,
+.cnr fieldset[disabled] .btn-primary:hover,
+.cnr .btn-primary.disabled:focus,
+.cnr .btn-primary[disabled]:focus,
+.cnr fieldset[disabled] .btn-primary:focus,
+.cnr .btn-primary.disabled.focus,
+.cnr .btn-primary[disabled].focus,
+.cnr fieldset[disabled] .btn-primary.focus,
+.cnr .btn-primary.disabled:active,
+.cnr .btn-primary[disabled]:active,
+.cnr fieldset[disabled] .btn-primary:active,
+.cnr .btn-primary.disabled.active,
+.cnr .btn-primary[disabled].active,
+.cnr fieldset[disabled] .btn-primary.active {
+    color: #ffffff;
+    background-color: rgba(200, 16, 46, 0.85);
+    border-color: rgba(200, 16, 46, 0.85);
+}
+
+.cnr .btn-success,
+.cnr .btn-success:hover,
+.cnr .btn-success:focus,
+.cnr .btn-success.focus {
+    color: #ffffff;
+    background-color: #19fc19;
+    border-color: #058817;
+}
+
+.cnr .form-control:focus {
+    border-color: #c8102e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(200, 16, 46, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(200, 16, 46, 0.6);
+}
+
+#print_preview .ol-attribution {
+    display: none;
+}
+
+.cnr #mapstore-navbar-container .dropdown-toggle,
+.cnr #mapstore-navbar-container .square-button {
+    border-color: #c8102e;
+}
+
+.cnr #mapstore-navbar-container .square-button:hover {
+    border-color: #820d20;
+    border-right-color: #ffffff;
+}
+
+.cnr #mapstore-navbar-container .dropdown-toggle,
+.cnr #mapstore-navbar-container .square-button {
+    border-right-color: #ffffff;
+}
+
+#mapstore-burger-menu-container {
+    border-right-color: #c8102e !important;
+}
+
+#mapstore-burger-menu-container:focus,
+#mapstore-burger-menu-container:active,
+#mapstore-burger-menu-container.active,
+#mapstore-burger-menu-container:hover {
+    border-color: #820d20 !important;
+}
+
+.cnr .btn-info:hover,
+.cnr .btn-info:focus,
+.cnr .btn-info:active {
+    color: #ffffff !important;
+}
+
+.rechart-tooltip {
+    border: 1px solid #000;
+    background-color: #FFF;
+    padding: 4px 6px;
+}
+
+.rechart-tooltip ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/**
+* Les menu de gauche et droite
+ */
+#drawer-menu-button,
+#mapstore-burger-menu {
+    z-index: 10;
+}
+
+/**
+* Les coordonnées de la position de la souris
+ */
+#mapstore-mouseposition {
+    right: 320px !important;
+}
+
+/**
+ * Modal Projection
+ */
+.cnr #projection-panel.modal-dialog {
+    position: absolute;
+    left: 30%;
+}
+
+/**
+ * Modal CSV2Shape
+ */
+.cnr #csv2shapefile-dialog.modal-dialog {
+    position: absolute;
+    left: 30%;
+}
+
+/**
+ * Modal Print
+ */
+.cnr #mapstore-print-panel.modal-dialog {
+    position: absolute;
+    top: 0 !important;
+    left: 30% !important;
+}
+
+/**
+ * Modal Widgets
+ */
+#widgets-panel {
+    z-index: 11; /* devant la TOC */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    width: 500px;
+    height: calc(100vh - 30px);
+}
+
+#widgets-panel .close {
+    color: #c8102e;
+}
+
+#widgets-panel .widgets-panel-header {
+    padding: 9px 12px;
+    margin-bottom: 25px;
+}
+
+#widgets-panel .widgets-panel-header .widgets-panel-title {
+    color: #c8102e;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+#widgets-panel .widgets-list {
+    background-color: #ffffff;
+    height: calc(100vh - 68px);
+    overflow: auto;
+}
+
+#widgets-panel .widgets-list label {
+    cursor: pointer;
+}
+
+#widgets-panel .widgets-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+#widgets-panel .widgets-list ul li {
+    cursor: pointer;
+    background-color: #efefef;
+    padding: 4px 3px;
+    margin: 0 3px;
+}
+
+#widgets-panel .widgets-list ul li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#widgets-panel .widgets-reset {
+    margin: 6px 0 10px 0;
+    text-align: center;
+}
+
+/**
+ * Page des widgets
+ */
+#widgets-page .widgets {
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    min-height: 200px;
+}
+
+#widgets-page .widgets ._ms2_init_spinner {
+    position: relative;
+    top: 50%;
+    transform: translateX(0%) translateY(-50%);
+}
+
+#widgets-page .widget-cell {
+    margin: 6px 0;
+}
+
+#widgets-page .widget-cell label {
+    cursor: pointer;
+}
+
+/* Hack sur les selecteurs "react-selectize" pour que le simple et le multiple se ressemblent */
+#widgets-page .simple-select.react-selectize.default.root-node:not(.open) .react-selectize-control {
+    background-color: #ffffff;
+    background-image: none;
+}
+
+/**
+ * Modal Géotraitement
+ */
+.cnr #geoprocessing-panel.modal-dialog {
+    position: absolute;
+    left: 30%;
+}
+
+/**
+ * Atlas
+ */
+.cnr #atlas-panel.modal-dialog {
+    position: absolute;
+    left: 30%;
+}
+
+.cnr #atlas-panel .modal-body .loading {
+    min-height: 180px;
+}
+
+.cnr #atlas-panel ._ms2_init_center,
+.cnr #raster-body ._ms2_init_center {
+    position: absolute;
+}
+
+#atlas-print-form {
+    padding-bottom: 0;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+/**
+ * Modal Profile
+ */
+.cnr #mapstore-profile-panel.modal-dialog {
+    position: absolute;
+    left: 30%;
+    background-color: #fff;
+}
+
+/**
+ * Lidar
+ */
+#lidar .Select.is-open {
+    padding-bottom: 135px;
+}
+
+/**
+ * Catalogue Menu
+ */
+.Select-menu-outer .Select-option.is-selected {
+    color: #ffffff !important;
+    background-color: #c8102e !important;
+}
+
+.Select-menu-outer .Select-option.is-focused {
+    color: #ffffff !important;
+    background-color: #c8102e !important;
+}
+
+.Select-menu-outer .Select-option.is-disabled {
+    color: #ffffff !important;
+    background-color: rgba(200, 200, 200, 1) !important;
+    cursor: default;
+}
+
+/**
+ * Dessin
+ */
+.draw-shape-buttons {
+    margin-top: 8px;
+}
+
+#panel-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.75);
+    right: 0;
+    bottom: 0;
+}
+
+#panel-loader .progression-scale {
+    color: #777777;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/**
+ * Modal
+ */
+.cnr .ms-resizable-modal .modal-content .modal-header {
+    padding: 15px 8px;
+    min-height: 48px;
+}
+
+.cnr #identify-container .ms-resizable-modal > .modal-content {
+    top: 0 !important;
+    /*transform: translate(0px, 0px) !important;*/
+}
+
+.cnr .identify-navigation.navigation-docked {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 10px;
+}
+
+.cnr .identify-navigation.navigation-default {
+    z-index: 1;
+    position: absolute;
+    right: 32px;
+    top: auto;
+}
+
+/**
+ * Buttons footer
+ */
+.footer-button {
+    z-index: 10;
+    position: static !important;
+    bottom: 5px;
+    right: 264px;
+    top: auto;
+    margin: 0;
+    text-shadow: none;
+    background-color: white;
+    width: auto;
+    height: 46px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.footer-button button {
+    float: left;
+    height: 25px;
+    width: 25px !important;
+    padding: 3px 6px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-button button span {
+    color: #ffffff;
+}
+
+/**
+ * Hack pour le lien vers les cartes.
+ * Element ajouté 2x, entraine un décalage sur la fenetre du catalogue
+ */
+.mapstore-maplinks-button {
+    display: none;
+}
+
+#mapstore-notify-panel .panel-heading {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+#mapstore-notify-panel .panel-body {
+    padding: 15px;
+}
+
+.mapstore-notify-panel .row {
+    overflow-x: visible !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    padding-bottom: 0 !important;
+}
+
+.cnr .mapstore-notify-panel-card {
+    height: calc(100% - 50px);
+    overflow: auto;
+    margin-top: 10px;
+    border: solid 1px #bbb;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cnr .mapstore-notify-panel-card-title,
+.cnr .mapstore-notify-info-viewer-title label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cnr .ql-align-right {
+    text-align: right;
+}
+
+.cnr .ql-align-left {
+    text-align: left;
+}
+
+.cnr .ql-align-center {
+    text-align: center;
+}
+
+.cnr .ql-align-justify {
+    text-align: justify;
+}
+
+.cnr [hidden] {
+    display: none !important;
+}
+
+.progress-bar-cnr {
+    background-color: #c8102e !important;
+}
+
+.cnr .svg-color path {
+    stroke: #c8102e;
+}
+
+.cnr .svg-color-white path {
+    stroke: #fff;
+}
+
+/**
+ * Plugin Rasters
+ */
+#rasters-widget .ms2-border-layout-body {
+    overflow-y: hidden !important;
+}
+
+#rasters-widget .alert {
+    margin-bottom: 10px;
+}
+
+#raster-body .separator {
+    clear: both;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+#raster-body h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+#raster-body h3 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+#raster-body #raster-footer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#raster-downloader {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+#raster-downloader .ms2-border-layout-body {
+    overflow-y: initial !important;
+}
+
+#raster-selector .name-results {
+    z-index: 1;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    min-width: 250px;
+    width: auto;
+}
+
+#raster-selector .name-results ul {
+    padding: 0;
+    margin: 0;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+#raster-selector .name-results ul li {
+    display: block;
+    cursor: pointer;
+    padding: 5px 8px;
+    margin: 0;
+}
+
+#raster-selector .name-results ul li:hover {
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+.row-disabled {
+    opacity: 0.75;
+}
+
+.row-uncheckabled {
+    opacity: 0.3 !important;
+}
+
+.coordinate.lat, .coordinate.lon {
+    line-height: 38px;
+}
+
+@media (max-width: 576px) {
+    #search-help {
+        position: relative;
+        z-index: 4;
+    }
+
+    .cnr #mapstore-navbar-container {
+        height: 42px;
+    }
+
+    .cnr #mapstore-navbar-container {
+        text-align: right;
+        left: 81px;
+        box-shadow: none;
+    }
+
+    .cnr #mapstore-navbar .navbar-dx .MapSearchBar {
+        top: 42px;
+    }
+
+    .cnr .square-button {
+        width: 35px;
+    }
+
+    .cnr .square-button .glyphicon,
+    .cnr .square-button svg {
+        font-size: 21px !important;
+    }
+}

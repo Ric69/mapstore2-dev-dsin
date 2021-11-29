@@ -1,0 +1,130 @@
+{
+  "map": {
+    "projection": "EPSG:3857",
+    "units": "m",
+    "center": {
+      "x": 2.108827,
+      "y": 46.205444,
+      "crs": "EPSG:4326"
+    },
+    "zoom": 6,
+    "maxExtent": [-2037508.34, -2037508.34, 2037508.34, 2037508.34],
+    "layers": [
+      {
+        "type": "tileprovider",
+        "title": "OpenStreetMap Humanitaire",
+        "provider": "OpenStreetMap.HOT",
+        "name": "OpenStreetMap.HOT",
+        "source": "OpenStreetMap",
+        "group": "background",
+        "url": "https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+        "thumbURL": "https://a.tile.openstreetmap.fr/hot/0/0/0.png",
+        "visibility": false
+      },
+      {
+        "type": "tileprovider",
+        "title": "OpenStreetMap",
+        "provider": "OpenStreetMap.France",
+        "name": "OpenStreetMap.France",
+        "source": "OpenStreetMap",
+        "group": "background",
+        "url": "https://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
+        "thumbURL": "https://a.tile.openstreetmap.fr/osmfr/0/0/0.png",
+        "visibility": false
+      },
+      {
+        "type": "tileprovider",
+        "title": "OpenTopoMap",
+        "provider": "OpenTopoMap",
+        "name": "OpenTopoMap",
+        "source": "OpenTopoMap",
+        "group": "background",
+        "url": "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
+        "thumbURL": "https://a.tile.opentopomap.org/0/0/0.png",
+        "visibility": false
+      },
+      {
+        "type": "arcgis",
+        "title": "World",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/0/0/0",
+        "visibility": true,
+        "maxZoom": 18,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Street Map",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world street map",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Topo Map",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world topo map",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Shaded Relief",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world shaded relief",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Terrain Base",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world terrain base",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "NatGeo World Map",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "natgeo world map",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/0/0/0",
+        "visibility": false,
+        "maxZoom": 11,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Gris clair",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world gris clair",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      },
+      {
+        "type": "arcgis",
+        "title": "World Dark Gray Base",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world dark gray base",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/0/0/0",
+        "visibility": false,
+        "opacity": 1
+      }
+    ]
+  }
+}

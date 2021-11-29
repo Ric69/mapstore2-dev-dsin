@@ -1,0 +1,21 @@
+#mapstore-full-text-results-panel {
+    z-index: 1000;
+    position: absolute;
+    left: 25%;
+}
+
+.results-list {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.results-list:nth-child(even) {
+    background: rgb(240, 240, 240);
+}
+.results-list:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}

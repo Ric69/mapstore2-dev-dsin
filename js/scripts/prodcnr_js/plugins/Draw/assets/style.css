@@ -1,0 +1,26 @@
+/**
+* Modal Drawing
+*/
+#drawingtool-dialog.modal-dialog {
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    width: 550px;
+    margin-top: 0;
+}
+
+#drawingtool-panel {
+    padding: 0;
+}
+
+.btn-draw {
+    margin: 5px;
+}
+
+#drawingtool-projection-panel {
+    margin-bottom: 10px;
+}
+
+#btn-drawing {
+    display: inline-block;
+}

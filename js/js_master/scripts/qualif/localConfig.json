@@ -1,0 +1,154 @@
+{
+  "proxyUrl": {
+    "url": "proxy/?url=",
+    "useCORS": [
+      "https://georchestraqualif.cnr.tm.fr/geoserver",
+      "https://georchestraqualif.cnr.tm.fr/",
+      "https://server.arcgisonline.com/ArcGIS",
+      "https://nominatim.openstreetmap.org",
+      "https://georchestraqualif.cnr.tm.fr/es/_search",
+      "https://basemapone.cnr.tm.fr/",
+      "https://basemaptwo.cnr.tm.fr/",
+      "https://basemapcarto.cnr.tm.fr/"
+    ]
+  },
+  "homePageId": 1,
+  "groupEveryoneId": 1,
+  "applicationName": "CNR Maps",
+  "mainNdd": "https://georchestraqualif.cnr.tm.fr",
+  "mainNddHttp": "http://georchestraqualif.cnr.tm.fr",
+  "printUrl": "https://georchestraqualif.cnr.tm.fr/geoserver/pdf/info.json",
+  "georchestraUrl": "https://georchestraqualif.cnr.tm.fr/geoserver/ows",
+  "georchestraUrlRest": "https://georchestraqualif.cnr.tm.fr/geoserver/rest",
+  "elasticSearch": "https://georchestraqualif.cnr.tm.fr/es/_search",
+  "georchestra_access": "https://georchestraqualif.cnr.tm.fr/geonetwork/srv/fre/catalog.search#/home",
+  "email": {
+    "api": "https://mapsqualif.cnr.tm.fr/emailapi/send",
+    "sender": "noreply@cnr.tm.fr",
+    "notify": {
+      "subject": "[CNR Maps] Modification de la carte \"{name}\"",
+      "content": "Bonjour,<br />La carte \"{name}\" a été modifiée !"
+    }
+  },
+  "userFilter": {
+    "layer": "cnr:CNR00MAPSEMPDT",
+    "attribute": "FILTREMAPS",
+    "geometry_name": "SHAPE"
+  },
+  "rasterOptions": {
+    "formats": ["ASC", "ECW", "LAS", "TIF"],
+    "group": "Raster selection",
+    "layers": ["cnr:Emprise_CNR_LIDAR"]
+  },
+  "authenticationRules": [
+    {
+      "urlPattern": ".*geostore.*",
+      "method": "bearer"
+    },
+    {
+      "urlPattern": ".*georchestraqualif.cnr.tm.fr/[^es/]",
+      "authkeyParamName": "authkey",
+      "method": "authkey"
+    }
+  ],
+  "initialState": {
+    "defaultState": {
+      "maptype": {
+        "mapType": "openlayers"
+      },
+      "controls": {
+        "toolbar": {
+          "expanded": false
+        }
+      },
+      "catalog": {
+        "default": {
+          "newService": {
+            "url": "",
+            "type": "wms",
+            "title": "",
+            "isNew": true,
+            "autoload": false
+          },
+          "selectedService": "Données CNR (Services WMS)",
+          "services": {
+            "Données CNR (Services WMS)": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/cnr/wms",
+              "type": "wms",
+              "title": "Données CNR (Services WMS)",
+              "autoload": false
+            },
+            "Données CNR -version éditeurs- (Services WFS)": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/cnr/wfs",
+              "type": "wfs",
+              "title": "Données CNR -version éditeurs- (Services WFS)",
+              "autoload": false
+            },
+            "Données Rasters CNR (Services tuilés WMTS)": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/Mosaique/wms",
+              "type": "wms",
+              "title": "Données Rasters CNR (Services tuilés WMTS)",
+              "autoload": false
+            },
+            "Données externes (Services WMS)": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/externe/wms",
+              "type": "wms",
+              "title": "Données externes (Services WMS)",
+              "autoload": false
+            },
+            "Données externes (Services WFS)": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/externe/wfs",
+              "type": "wfs",
+              "title": "Données externes (Services WFS)",
+              "autoload": false
+            },
+            "Données 3D": {
+              "url": "https://georchestraqualif.cnr.tm.fr/geoserver/rest/cnr/listCatalog3D",
+              "type": "threeDimensions",
+              "title": "Données 3D",
+              "autoload": false
+            }
+          }
+        },
+        "supportedFormats": [
+          {
+            "name": "wfs",
+            "label": "WFS"
+          },
+          {
+            "name": "wms",
+            "label": "WMS"
+          },
+          {
+            "name": "wmts",
+            "label": "WMTS"
+          },
+          {
+            "name": "threeDimensions",
+            "label": "3D"
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "desktop": [
+      {
+        "name": "StyleEditor",
+        "cfg": {
+          "styleService": {
+            "baseUrl": "https://georchestraqualif.cnr.tm.fr/geoserver/",
+            "formats": ["css", "sld"],
+            "availableUrls": [
+              "http://georchestraqualif.cnr.tm.fr/geoserver/",
+              "https://georchestraqualif.cnr.tm.fr/geoserver/"
+            ]
+          }
+        },
+        "widget": {
+          "auto": true
+        }
+      }
+    ]
+  }
+}

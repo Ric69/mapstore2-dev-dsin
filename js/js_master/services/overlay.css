@@ -1,0 +1,95 @@
+#Overlay {
+    border: 1px solid #088 !important;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+    overflow-y: auto !important;
+    z-index: 1000;
+    padding: 8px;
+}
+
+.overlay {
+    z-index: 1234782904789;
+}
+
+.overlay.isActive {
+    cursor: move !important;
+}
+
+.overlay img,
+.overlay iframe {
+    width: 100%;
+}
+
+.overlay.zoom-0 {
+    width: calc(150px * 0.1) !important;
+    max-height: calc(150px * 0.1) !important;
+}
+
+.overlay.zoom-1,
+.overlay.zoom-2 {
+    width: calc(150px * 0.2) !important;
+    max-height: calc(150px * 0.2) !important;
+}
+
+.overlay.zoom-3,
+.overlay.zoom-4 {
+    width: calc(150px * 0.3) !important;
+    max-height: calc(150px * 0.3) !important;
+}
+
+.overlay.zoom-5,
+.overlay.zoom-6 {
+    width: calc(150px * 0.4) !important;
+    max-height: calc(150px * 0.4) !important;
+}
+
+.overlay.zoom-7,
+.overlay.zoom-8 {
+    width: calc(150px * 0.6) !important;
+    max-height: calc(150px * 0.6) !important;
+}
+
+.overlay.zoom-9,
+.overlay.zoom-10 {
+    width: calc(150px * 0.8) !important;
+    max-height: calc(150px * 0.8) !important;
+}
+
+.overlay.zoom-11,
+.overlay.zoom-12 {
+    width: calc(150px * 1) !important;
+    max-height: calc(150px * 1) !important;
+}
+
+.overlay.zoom-13,
+.overlay.zoom-14 {
+    width: calc(150px * 1.2) !important;
+    max-height: calc(150px * 1.2) !important;
+}
+
+.overlay.zoom-15,
+.overlay.zoom-16 {
+    width: calc(150px * 1.4) !important;
+    max-height: calc(150px * 1.4) !important;
+}
+.overlay.zoom-17,
+.overlay.zoom-18 {
+    width: calc(150px * 1.6) !important;
+    max-height: calc(150px * 1.6) !important;
+}
+.overlay.zoom-19,
+.overlay.zoom-20 {
+    width: calc(150px * 1.8) !important;
+    max-height: calc(150px * 1.8) !important;
+}
+.overlay.zoom-21,
+.overlay.zoom-22 {
+    width: calc(150px * 2) !important;
+    max-height: calc(150px * 2) !important;
+}
+.overlay.zoom-23,
+.overlay.zoom-24 {
+    width: calc(150px * 2) !important;
+    max-height: calc(150px * 2) !important;
+}

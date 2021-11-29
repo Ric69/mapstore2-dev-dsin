@@ -1,0 +1,474 @@
+/*
+	FONT CNR A UTILISER POUR LE WEB -  DSI PRO (EL)
+*/
+
+/* POLICE DARWIN*/
+@font-face {
+    font-family: 'darwinregular';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-webfont.svg#darwinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinblack';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-black-webfont.svg#darwinblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltregular';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-webfont.svg#darwinaltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltblack';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-black-webfont.svg#darwinaltblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltbold';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bold-webfont.svg#darwinaltbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltitalic';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-italic-webfont.svg#darwinaltitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltlight';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-light-webfont.svg#darwinaltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinblack_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-blackitalic-webfont.svg#darwinblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinbold';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bold-webfont.svg#darwinbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinbold_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-bolditalic-webfont.svg#darwinbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinextralight';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralight-webfont.svg#darwinextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinextralight_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-extralightitalic-webfont.svg#darwinextralight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinitalic';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-italic-webfont.svg#darwinitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinlight';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-light-webfont.svg#darwinlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinlight_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwin-lightitalic-webfont.svg#darwinlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltextralight';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralight-webfont.svg#darwinaltextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltbold_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-bolditalic-webfont.svg#darwinaltbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltlight_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-lightitalic-webfont.svg#darwinaltlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltextralight_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-extralightitalic-webfont.svg#darwinaltextralight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'darwinaltblack_italic';
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.eot');
+    src: url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.woff') format('woff'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/darwin/los_andes_-_darwinalt-blackitalic-webfont.svg#darwinaltblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* POLICE FOCO*/
+@font-face {
+    font-family: 'focoregular';
+    src: url('./font_cnr/foco/foco_rg-webfont.eot');
+    src: url('./font_cnr/foco/foco_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_rg-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_rg-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_rg-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_rg-webfont.svg#focoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focoitalic';
+    src: url('./font_cnr/foco/foco_it-webfont.eot');
+    src: url('./font_cnr/foco/foco_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_it-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_it-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_it-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_it-webfont.svg#focoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focobold';
+    src: url('./font_cnr/foco/foco_bd-webfont.eot');
+    src: url('./font_cnr/foco/foco_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_bd-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_bd-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_bd-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_bd-webfont.svg#focobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focoblack';
+    src: url('./font_cnr/foco/foco_blk-webfont.eot');
+    src: url('./font_cnr/foco/foco_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_blk-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_blk-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_blk-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_blk-webfont.svg#focoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focolight';
+    src: url('./font_cnr/foco/foco_lt-webfont.eot');
+    src: url('./font_cnr/foco/foco_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_lt-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_lt-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_lt-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_lt-webfont.svg#focolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focolight_italic';
+    src: url('./font_cnr/foco/foco_ltit-webfont.eot');
+    src: url('./font_cnr/foco/foco_ltit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_ltit-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_ltit-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_ltit-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_ltit-webfont.svg#focolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focobold_italic';
+    src: url('./font_cnr/foco/foco_bdit-webfont.eot');
+    src: url('./font_cnr/foco/foco_bdit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_bdit-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_bdit-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_bdit-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_bdit-webfont.svg#focobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'focoblack_italic';
+    src: url('./font_cnr/foco/foco_blkit-webfont.eot');
+    src: url('./font_cnr/foco/foco_blkit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/foco/foco_blkit-webfont.woff2') format('woff2'),
+         url('./font_cnr/foco/foco_blkit-webfont.woff') format('woff'),
+         url('./font_cnr/foco/foco_blkit-webfont.ttf') format('truetype'),
+         url('./font_cnr/foco/foco_blkit-webfont.svg#focoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* POLICE DERIA SANS*/
+@font-face {
+    font-family: 'deria_sansregular';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-webfont.svg#deria_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sansitalic';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-italic-webfont.svg#deria_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sansbold';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bold-webfont.svg#deria_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sanslight';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-light-webfont.svg#deria_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sanslight_italic';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-lightitalic-webfont.svg#deria_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sansmedium';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-medium-webfont.svg#deria_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sansmedium_italic';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-mediumitalic-webfont.svg#deria_sansmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'deria_sansbold_italic';
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont.eot');
+    src: url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont?#iefix') format('embedded-opentype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont.woff2') format('woff2'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont.woff') format('woff'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont.ttf') format('truetype'),
+         url('./font_cnr/deria_sans/ahmet_altun_-_deriasans-bolditalic-webfont.svg#deria_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

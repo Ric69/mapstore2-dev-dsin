@@ -1,0 +1,55 @@
+.seisme {
+    background-color: aqua;
+    font-family: 'Darwin';
+
+
+}
+
+#georef {
+    position: "relative";
+
+    color:#55006A;
+    /* background-color: #55006A; */
+    z-index: 10000000;
+    /* width:52px;
+    height:52px; */
+    padding: "10px";
+    font-family: "Arial";
+    font-size:"28px";
+    
+}
+
+#georef:hover{
+    color:#42ff31;
+    cursor: pointer;
+}
+
+
+#georef.square-button {
+    width:34px;
+    height:34px;
+    padding:0;
+    padding-top: 3px;
+    margin-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    vertical-align:middle;
+
+}
+
+#georef.square-button svg:hover{
+    color:#42ff31;
+    cursor: pointer;
+}
+
+
+#georef.square-button svg{
+    width:24px;
+    height:24px;
+    color:#ffffff;
+    /* background-color: #078aa3;
+    border-color: #06758b; */
+
+}
+
+/* #mapstore-burger-menu > div > ul > li:nth-child(16) > a span{ margin-right: 15px;color:#078aa3;} */
+#mapstore-burger-menu > div > ul > li:nth-child(10) > a > svg{ margin-right: 15px;color:#078aa3;}

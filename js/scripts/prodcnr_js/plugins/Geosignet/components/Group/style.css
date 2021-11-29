@@ -1,0 +1,24 @@
+#GroupGeoSignets {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    user-select: none;
+}
+
+#GroupGeoSignets .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 10%;
+}
+
+#GroupGeoSignets .toolbar .title {
+    width: 80%;
+    text-align: left;
+}
+
+#GroupGeoSignets .toolbar .toc-status-icon {
+    cursor: pointer;
+    color: #c8102e;
+}

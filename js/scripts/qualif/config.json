@@ -1,0 +1,26 @@
+{
+  "map": {
+    "projection": "EPSG:3857",
+    "units": "m",
+    "center": {
+      "x": 2.108827,
+      "y": 46.205444,
+      "crs": "EPSG:4326"
+    },
+    "zoom": 6,
+    "maxExtent": [-2037508.34, -2037508.34, 2037508.34, 2037508.34],
+    "layers": [
+      {
+        "type": "arcgis",
+        "title": "World",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
+        "name": "world",
+        "group": "background",
+        "thumbURL": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/0/0/0",
+        "visibility": true,
+        "maxZoom": 18,
+        "opacity": 1
+      }
+    ]
+  }
+}

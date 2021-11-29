@@ -1,0 +1,72 @@
+.nav-content {
+    #background-switcher {
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        overflow-y: scroll;
+        height: 85vh;
+
+        .row-fluid {
+            margin: 0;
+
+            .switcher-wrapper,
+            .SortableItem {
+                width: 90%;
+                display: block;
+                margin-bottom: 25px;
+                margin-left: 12px;
+                margin-right: 12px;
+                padding: 4px 0;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.12),
+                    2px -2px 6px rgba(0, 0, 0, 0.06);
+                -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.12),
+                    2px -2px 6px rgba(0, 0, 0, 0.06);
+
+                .layer-title {
+                    font-size: 16px;
+                    line-height: 21px;
+                    margin: 3px 0 5px 0;
+                    padding: 0 6px;
+
+                    .glyphicon-eye-open,
+                    .glyphicon-eye-close {
+                        cursor: pointer;
+                        padding: 0 5px;
+                    }
+                }
+
+                .thumbnail {
+                    box-shadow: none;
+                    width: 100% !important;
+                    margin-bottom: 0;
+
+                    img {
+                        object-fit: cover;
+                        height: 50px;
+                        width: 100% !important;
+                    }
+
+                    &:hover {
+                        top: 0;
+                        left: 0;
+                        box-shadow: none;
+                    }
+                }
+
+                .mapstore-slider {
+                    position: relative;
+                    width: 100%;
+                    bottom: -5px;
+                    left: 0;
+                    right: 0;
+
+                    .noUi-target {
+                        &.noUi-horizontal {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

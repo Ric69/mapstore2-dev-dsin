@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InitUserList>
+    <User>
+        <name>admsigcnr</name>
+        <newPassword>EXpeli@rMUS:2022</newPassword>
+        <role>USER</role>
+        <groups>
+            <UserGroup>
+                <groupName>everyone</groupName>
+            </UserGroup>
+            <UserGroup>
+                <groupName>GR_ADM_CNRMAPS</groupName>
+            </UserGroup>
+        </groups>
+    </User>
+</InitUserList>
