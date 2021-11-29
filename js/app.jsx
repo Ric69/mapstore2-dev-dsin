@@ -8,7 +8,11 @@
 
 import { checkForMissingPlugins } from '@mapstore/utils/DebugUtils';
 import main from '@mapstore/product/main';
-const ConfigUtils = require('@mapstore/utils/ConfigUtils').default;
+// const ConfigUtils = require('@mapstore/utils/ConfigUtils').default;
+
+import appConfig from './appConfig';
+import pluginsDef from './plugins';
+import ConfigUtils from '@mapstore/utils/ConfigUtils';
 /**
  * Add custom (overriding) translations with:
  *
@@ -16,13 +20,16 @@ const ConfigUtils = require('@mapstore/utils/ConfigUtils').default;
  */
 ConfigUtils.setConfigProp('translationsPath', './MapStore2/web/client/translations');
 ConfigUtils.setConfigProp('themePrefix', 'mapstore2');
+ConfigUtils.setConfigProp('contextPluginsConfiguration', './js/pluginsConfig.json');
+
 
 /**
  * Use a custom plugins configuration file with:
  *
  * ConfigUtils.setLocalConfigurationFile('localConfig.json');
  */
-ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+// ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+ConfigUtils.setLocalConfigurationFile('./js/localConfig.json');
 
 /**
  * Use a custom application configuration file with:
@@ -39,15 +46,19 @@ ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
  *     }]
  * });
  */
-const appConfig = require('@mapstore/product/appConfig').default;
+// const appConfig = require('@mapstore/product/appConfig').default;
 
 /**
  * Define a custom list of plugins with:
  *
  * const plugins = require('./plugins');
  */
-const plugins = require('@mapstore/product/plugins').default;
+// const plugins = require('@mapstore/product/plugins').default;
 
-checkForMissingPlugins(plugins.plugins);
+// checkForMissingPlugins(plugins.plugins);
 
-main(appConfig, plugins);
+// main(appConfig, plugins);
+
+checkForMissingPlugins(pluginsDef.plugins);
+
+main(appConfig, pluginsDef);
